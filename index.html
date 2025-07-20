@@ -1,7 +1,148 @@
-<!DOCTYPE html>
-<html>
+<html lang="pt-br">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TUTORIAL GRUPO</title>
+  <meta name="description" content="Acesse agora nosso canal exclusivo no Telegram e não perca nenhuma novidade!">
+  <link rel="icon" href="images/icon512@2x.png" type="images/png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      color: rgb(17, 68, 207);
+      position: relative;
+      min-height: 100vh;
+    }
+
+    /* Imagem de fundo com opacidade */
+    .bg-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 0.1; /* Aqui tu controla a força da imagem */
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .step {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    .step img {
+      width: 100%;
+      display: block;
+    }
+
+    .step-text {
+      padding: 15px;
+      font-size: 16px;
+    }
+
+    .caption {
+      font-size: 13px;
+      color: #777;
+      text-align: center;
+      margin-top: -10px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .step-text {
+        font-size: 20px;
+      }
+      .caption {
+        font-size: 12px;
+      }
+    }
+
+    .cta-button-container {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+@keyframes pulse-slow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 #ff4747;
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ff4747;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 #ff4747;
+  }
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #ff4747, #f72222);
+  color: #fff;
+  font-weight: bold;
+  font-size: 26px;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  animation: pulse-slow 2.5s infinite;
+}
+
+
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <div class="container">
+    <h1>TUTORIAL PARA ACESSAR O GRUPO</h1>
+
+    <div class="step">
+      <img src="1.png" alt="Passo 1">
+      <div class="caption"></div>
+      <div class="step-text">Passo 1: Clique nos 3 Pontinhos.</div>
+    </div>
+
+    <div class="step">
+      <img src="2.png" alt="Passo 2">
+      <div class="caption"></div>
+      <div class="step-text">Passo 2: Clique em Abrir no navegador.</div>
+    </div>
+
+    <div class="step">
+      <div class="caption"></div>
+      <div class="step-text">Clique abaixo para fazer o Tutorial👇🏻</div>
+    </div>
+
+    <div class="cta-button-container">
+      <a href="https://t.me/+5N2Bk7TTyQI2MTMx" target="_blank" class="cta-button">
+        Acessar Telegram 🔥
+      </a>
+    </div>
+    
+  </div>
 </body>
 </html>
